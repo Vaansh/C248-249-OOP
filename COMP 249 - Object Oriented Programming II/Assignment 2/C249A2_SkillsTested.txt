@@ -1,7 +1,0 @@
-Skills Tested:
-
-* Inheritance
-* Polymorphism
-* Exception Handling
-* File I/O 
-* Other previous object oriented concepts

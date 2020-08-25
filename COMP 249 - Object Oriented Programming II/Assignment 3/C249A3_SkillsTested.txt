@@ -1,6 +1,0 @@
-Skills Tested:
-
-* File I/O
-* ArrayList
-* Linked Lists.
-* Other previous object oriented concepts
