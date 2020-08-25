@@ -1,0 +1,56 @@
+Question 1:Rank the IMO Participants
+
+International Mathematical Olympiad (IMO) is held each year since 1959. It is the oldest of the kind. Each team contains 6 members. The rank of a team is decided by the sum of the scores of all its 6 members. The rank of a participants is decided by his/her individual scores among all the participants.
+You are asked to develop a program to rank the teams and the participants. Some more detailed requirements:
+• The score of a participant is an integer and in the range of [0, 50].
+• 2D array is used to store a predefined data set.
+• Ranking an array is different from sorting an array. Assume an array is {3, 4, 2},
+the ranks of the elements in ascent order are {2,3,1}. If two elements are the same, they are ranked the same. The next rank after the duplicate elements should be added by 1. Assume an array is {3, 3, 4, 2}, the ranks are {2, 2, 4, 1}. Intensively use array and loop. No need to use any sorting algorithm.
+• Print the results. You do not need to sort the results.
+
+Question 2:Create Simple Classes
+
+You are asked to create an application to manage employees. Two classes, Date and Employee, are designed.
+The details of the Date class:
+• The properties: day (type of int), month (type of String), year (type of int). The
+months are “January”, “February”, ..., “December”. The day is between 1 and 31.
+The year is between 1000 to 9999. Validation is needed for user input data.
+• Constructor 1: a constructor without parameter. You need to give a valid default
+value for day, month, and year
+• Constructor 2: a constructor takes three parameters: String monthString, int day,
+int year. You need to validate the actual parameters and initialize the properties.
+Use the dateOK( ) method given below to do the validation.
+• Constructor 3: a constructor takes three parameters: int monthInt, int day, int year.
+You need to validate the actual parameters and initialize the properties. You need to convert the int monthInt to String, e.g. “January”, and store the string to the property month.
+• public boolean equals(Date otherDate): return true when otherDate has the same day, month and year.
+• private String monthString(int): convert an integer month to its corresponding name (String)
+• private boolean dateOK(String, int, int): validate if the actual parameters represent a valid date. See the definition of the properties for validate range. Leap year(*) is checked for February. No other special rules need to apply.
+• private boolean dateOK(int, int, int): validate if the actual parameters represent a valid date. (different than the above one). See the definition of the properties for validate range. Leap year is checked for February. No other special rules need to apply
+• public setDate(int, int, int): validate the actual parameters and set the values of the properties
+• public setDate(String, int, int): validate the actual parameters and set the values of the properties
+  
+• public int getDay( ), public int getMonth( ), public void getYear( ): the accessors of the properties. Notice that getMonth( ) converts the string of month to integer and returns the integer.
+• public void setDay(int), public void setMonth(int), public void setMonth(String), public setYear(int): the mutators of the properties.
+(*) Leap years occur in years exactly divisible by four, except that years ending in 00 are leap years only if they are divisible by 400.
+The details of the Employee class:
+• The properties:
+o The employee name: type of String
+o The hiring date: type of Date
+• Constructor 1: a constructor without parameter. You need to give a valid default
+value for the employee name and the hiring date
+• Constructor 2: a constructor takes two parameters: String aName, Date aDate..
+• public int seniority(Employee e): compare the seniority of this Employee and the
+Employee e. The seniority is decided by the hiring date. It returns 0, if the two employees are hired on the same date. It returns -1, if this Employee is hired before the Employee e. It return 1, if this Employee is hired after the Employee e.
+• public boolean equals(Employee e): return true when Employee e has the same day, month, year.
+• public String getName( ), public Date getHireDate( ): the accessor of the properties.
+• public void setHireDate (Date), public void setName(String): the mutator of the
+properties.
+A driver class to test the two classes:
+• Create two Employee instances with different data: call them e1 and e2.
+• Compare the seniority of e1and e2: whoever hired earlier is more senior.
+• Use the e3 is a second instance of e1 that the day, the month, and the year are
+the same as e1.
+• Use equals(Employee e) to compare e1 vs e2 , e1 vs e3.
+• Use==tocomparee1vse2,e1vse3.
+• Print the status of e1, e2, and e3: print the values of the properties
+You can add any methods to implement the designed functions.

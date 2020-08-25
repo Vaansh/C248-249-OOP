@@ -1,0 +1,8 @@
+Skills Tested:
+
+* Working with packages
+* Class Inheritance 
+* Constructors
+* Access Rights
+* Method Overriding
+* UML & JavaDoc documentations

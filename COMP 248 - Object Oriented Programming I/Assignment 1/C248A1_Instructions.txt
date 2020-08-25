@@ -1,0 +1,20 @@
+Question 1:Manipulating integer and doubles
+ Write a program that reads the numerators and denominators of two fractions into 4 variables of type integer. You can assume that the user will enter non-zero denominators. Your program then outputs the product and the sum of the two fractions as a fraction and as a percentage. 
+
+Question 2:Manipulating variables of type String
+
+Write a program which
+1. Display a welcome message.
+2. Prompts the user for his/her favorite city which it then stores in
+a variable of type String.
+3. Store the number of letters in the city name in a variable of type
+int.
+4. Display the city name as it was entered by the user and the
+number of letters in it.
+5. Display the city name all in upper case.
+6. Display the city name with the second letter in upper-case.
+7. Display the city name with the second to last letter in upper-case.
+8. Display the city name with the middle letter in upper-case. Note: The middle letter
+is the letter at location length() of the word divided by 2.
+9. Display a farewell message, so that the user knows that the program has terminated
+normally.

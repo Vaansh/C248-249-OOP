@@ -1,0 +1,16 @@
+Question 1:Taxi Fare Estimator
+
+You are asked to develop a taxi fare estimator for a Montreal taxi company. Users who are interested in receiving taxi service may use the estimator to get a quote for a ride. The taxi company offers ride service in Greater Montreal Area. There are a few factors that determine the taxi fare for a ride, i.e., car model, distance, whether or not the ride time is within rush hours. There are two types of cars that may provide ride service: base car models and limo car models. Depending on which rush hours the taxi service is provided, the fare will increase accordingly. In short, the total fare equals to the fare per km for each car model times ($/km) the estimated distance (km) times a rush hour ratio (%).
+- For base car model, the fare per km is $0.81;
+- For limo car model, the fare per km is $1.55;
+- If the ride is on any weekdays, there are three rush hour ratios that may apply:
+o If between 8am and 10am or between 4pm and 5pm, the rush hour ratio is 1.5;
+o If between midnight (12am) and 6am, the rush hour ratio is 2;
+o For the remaining time, the rush hour ratio is 1.
+- If the ride is on weekend, there are two rush hour ratios that may apply:
+o If between midnight (12am) and 6am, the rush hour ratio is 2; o For the remaining time, the rush hour ratio is 1.3.
+
+Question 2:Reverse Input Number
+
+You are asked to write a program that counts the number of digits of a number and returns the reverse order of the digits in the number. The number with at most 10 digits is provided by a user, e.g., for an input number of “12345”, the program would output “5” and “54321” to the console. In addition, the program will ask whether the user wants to continue to input another number or end this program.
+
